@@ -13,38 +13,38 @@
 <body>
   <!-- navbar section start -->
   <header class="m-5">
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container-fluid d-flex justify-content-between mx-5">
-        <div>
-          <a class="navbar-brand fw-bold" href="#">Online-courses</a>
-        </div>
-        <div class="d-flex justify-content-between" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Courses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Deals</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Success</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active " href="#">Register</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <button class="btn btn-outline-info" type="submit">Register</button>
-        </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container pt-4 pb-4">
+          <a class="navbar-brand fs-2 fw-semibold" href="#">Digital Learning</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                  <li class="nav-item pe-4 fs-5">
+                      <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item pe-4 fs-5">
+                      <a class="nav-link" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item pe-4 fs-5">
+                      <a class="nav-link" href="#">Deals</a>
+                  </li>
+                  <li class="nav-item pe-4 fs-5">
+                      <a class="nav-link" href="#">Success</a>
+                  </li>
+                  <li class="nav-item pe-4 fs-5">
+                      <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item pe-4 fs-5">
+                      <a class="nav-link" href="#">Register</a>
+                  </li>
+              </ul>
+              <button class="btn btn-outline-info  fs-5 fw-semibold" type="submit">Register</button>
+          </div>
       </div>
-    </nav>
+  </nav>
   </header>
   <!-- navbar section end -->
   <main>
@@ -177,7 +177,7 @@
         <button class="text-white bg-info rounded border border-info">See More Courses</button>
       </div>
     </section>
-    <!-- explore the e-learning institute part  -->
+    <!-- explore the e-learning institute part 
     <section class="m-5">
       <div class="d-flex">
         <div><img src="images/working.png" alt=""></div>
@@ -203,12 +203,12 @@
             <div><button class="bg-info text-white rounded border-0 px-3 py-2">Read More</button></div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Register part  -->
     <section class="m-5">
       <div class="d-flex bg-info  text-white">
         <div class="row p-5">
-          <div class="col-6">
+          <div class="col-md-6 col-12 text-center text-md-start">
             <h3>Ready to join?</h3>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when
               looking at its layout.</p>
@@ -264,66 +264,80 @@
       </div> 
     </section>
     <!-- ask part  -->
-    <section class="m-5 p-5">
+    <!-- frequently asked question -->
+    <section class="mb-5">
       <div class="text-center">
-        <div><h2>Frequently Asked Questions</h2></div>
-      <div><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p></div>
+          <h1>Frequently Asked Questions</h1>
+          <p>An FAQ is a list of commonly asked questions and answers on a website about topics.</p>
       </div>
-      <div class="p-4">
-        <div class="accordion" id="accordionExample">
+      <!-- question -->
+      <div class="accordion w-75 mx-auto" id="accordionExample">
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What other services are you compatible with?
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the generators on the.
+              <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                      aria-expanded="true" aria-controls="collapseOne">
+                      What are the difference between flex and grid?
+                  </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <strong>Grid and flexbox:</strong> The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for
+                      layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at
+                      the same time.
+                  </div>
               </div>
-            </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                I have a technical i need resolved, who do i email?
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the generators on the.
+              <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      What are the difference between tailwind and bootstrap?
+                  </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <strong>Tailwind and Bootstrap:</strong>  Tailwind offers predesigned widgets to build a site from scratch with fast UI development. Bootstrap comes with a set of
+                      pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility
+                      classes to create a neat UI with more flexibility and uniqueness.
+                  </div>
               </div>
-            </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                What other services are you compatible with?
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the generators on the.
+              <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      What is css box model?
+                  </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content
+                      itself. It is used to create the design and layout of web pages.
+                  </div>
               </div>
-            </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                What other services are you compatible with?
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the generators on the.
+              <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      What is a semantic tag?
+                  </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML
+                      more comprehensible by better defining the different sections and layout of web pages.
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
       </div>
-    </section>
+  </section>
     <!-- companies part  -->
-    <section class="m-5">
+    <section class="m-5 d-none d-md-block">
       <div class="text-center bolded"><h2>Trusted by over 800+ companies</h2></div>
       <div class="d-flex justify-content-evenly px-5 py-2">
         <div><img class="w-50" src="images/company/company-1.png" alt=""></div>
